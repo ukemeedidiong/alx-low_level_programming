@@ -11,26 +11,23 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 != 0)
+		if (i % 3 == 0)
 		{
-			printf(" Fizz");
+			printf(" Fizz\n");
 		}
-		else if (i % 5 == 0 && i % 3 != 0)
+		else if (i % 5 == 0)
 		{
-			printf(" Buzz");
+			printf(" Buzz\n");
 		}
 		else if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf(" FizzBuzz");
-		}
-		else if (i == 1)
-		{
-			printf("%d", i);
+			printf(" FizzBuzz\n");
 		}
 		else
 		{
-			printf(" %d", i);
+			printf("%d\n", i);
 		}
+
+		return (0);
 	}
-	printf("\n");
 }
