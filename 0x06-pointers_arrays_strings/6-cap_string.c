@@ -34,5 +34,4 @@ char *cap_string(char *entry)
 	}
 
 	return (str);
-
-
+}
